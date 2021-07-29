@@ -1,0 +1,25 @@
+.tc-tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tc-tooltip .tc-tooltip-text {
+    visibility: hidden;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1000;
+}
+
+.tc-tooltip .tc-tooltip-arrow {
+    visibility: hidden;
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+
+    z-index: 1000;
+}
